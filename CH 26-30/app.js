@@ -69,16 +69,7 @@
 // Write a program that shows a random number between 1 
 // and 100 in your browser
 
-// let number=-1
-// let randomNum=(Math.floor(number)*100)
-// document.write(randomNum)
 
 let randomNum ;
 randomNum = Math.ceil(Math.random() * 100);
 document.write("Random number between 1 and 100: " + randomNum)
-// var arr = [];
-// while(arr.length < 8){
-//     var r = Math.floor(Math.random() * 100) + 1;
-//     if(arr.indexOf(r) === -1) arr.push(r);
-// }
-// document.write(arr);
